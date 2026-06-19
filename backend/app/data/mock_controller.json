@@ -1,0 +1,1580 @@
+{
+  "controller": {
+    "id": "bconnect-demo-controller",
+    "name": "Bconnect Demo Wi-Fi Controller"
+  },
+  "venues": [
+    {
+      "id": "venue-001",
+      "name": "Demo Venue 001",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-001",
+          "name": "Access Point 001",
+          "mac_address": "02:00:00:00:00:01",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-002",
+      "name": "Demo Venue 002",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-002",
+          "name": "Access Point 002",
+          "mac_address": "02:00:00:00:00:02",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-003",
+      "name": "Demo Venue 003",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-003",
+          "name": "Access Point 003",
+          "mac_address": "02:00:00:00:00:03",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-004",
+      "name": "Demo Venue 004",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-004",
+          "name": "Access Point 004",
+          "mac_address": "02:00:00:00:00:04",
+          "status": "offline"
+        }
+      ]
+    },
+    {
+      "id": "venue-005",
+      "name": "Demo Venue 005",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-005",
+          "name": "Access Point 005",
+          "mac_address": "02:00:00:00:00:05",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-006",
+      "name": "Demo Venue 006",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-006",
+          "name": "Access Point 006",
+          "mac_address": "02:00:00:00:00:06",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-007",
+      "name": "Demo Venue 007",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-007",
+          "name": "Access Point 007",
+          "mac_address": "02:00:00:00:00:07",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-008",
+      "name": "Demo Venue 008",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-008",
+          "name": "Access Point 008",
+          "mac_address": "02:00:00:00:00:08",
+          "status": "offline"
+        }
+      ]
+    },
+    {
+      "id": "venue-009",
+      "name": "Demo Venue 009",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-009",
+          "name": "Access Point 009",
+          "mac_address": "02:00:00:00:00:09",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-010",
+      "name": "Demo Venue 010",
+      "timezone": "Africa/Johannesburg",
+      "access_points": [
+        {
+          "id": "ap-010",
+          "name": "Access Point 010",
+          "mac_address": "02:00:00:00:00:10",
+          "status": "online"
+        }
+      ]
+    },
+    {
+      "id": "venue-011",
+      "name": "Demo Venue 011",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-012",
+      "name": "Demo Venue 012",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-013",
+      "name": "Demo Venue 013",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-014",
+      "name": "Demo Venue 014",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-015",
+      "name": "Demo Venue 015",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-016",
+      "name": "Demo Venue 016",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-017",
+      "name": "Demo Venue 017",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-018",
+      "name": "Demo Venue 018",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-019",
+      "name": "Demo Venue 019",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-020",
+      "name": "Demo Venue 020",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-021",
+      "name": "Demo Venue 021",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-022",
+      "name": "Demo Venue 022",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-023",
+      "name": "Demo Venue 023",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-024",
+      "name": "Demo Venue 024",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-025",
+      "name": "Demo Venue 025",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-026",
+      "name": "Demo Venue 026",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-027",
+      "name": "Demo Venue 027",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-028",
+      "name": "Demo Venue 028",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-029",
+      "name": "Demo Venue 029",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-030",
+      "name": "Demo Venue 030",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-031",
+      "name": "Demo Venue 031",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-032",
+      "name": "Demo Venue 032",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-033",
+      "name": "Demo Venue 033",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-034",
+      "name": "Demo Venue 034",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-035",
+      "name": "Demo Venue 035",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-036",
+      "name": "Demo Venue 036",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-037",
+      "name": "Demo Venue 037",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-038",
+      "name": "Demo Venue 038",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-039",
+      "name": "Demo Venue 039",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-040",
+      "name": "Demo Venue 040",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-041",
+      "name": "Demo Venue 041",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-042",
+      "name": "Demo Venue 042",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-043",
+      "name": "Demo Venue 043",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-044",
+      "name": "Demo Venue 044",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-045",
+      "name": "Demo Venue 045",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-046",
+      "name": "Demo Venue 046",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-047",
+      "name": "Demo Venue 047",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-048",
+      "name": "Demo Venue 048",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-049",
+      "name": "Demo Venue 049",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-050",
+      "name": "Demo Venue 050",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-051",
+      "name": "Demo Venue 051",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-052",
+      "name": "Demo Venue 052",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-053",
+      "name": "Demo Venue 053",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-054",
+      "name": "Demo Venue 054",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-055",
+      "name": "Demo Venue 055",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-056",
+      "name": "Demo Venue 056",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-057",
+      "name": "Demo Venue 057",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-058",
+      "name": "Demo Venue 058",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-059",
+      "name": "Demo Venue 059",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-060",
+      "name": "Demo Venue 060",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-061",
+      "name": "Demo Venue 061",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-062",
+      "name": "Demo Venue 062",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-063",
+      "name": "Demo Venue 063",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-064",
+      "name": "Demo Venue 064",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-065",
+      "name": "Demo Venue 065",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-066",
+      "name": "Demo Venue 066",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-067",
+      "name": "Demo Venue 067",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-068",
+      "name": "Demo Venue 068",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-069",
+      "name": "Demo Venue 069",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-070",
+      "name": "Demo Venue 070",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-071",
+      "name": "Demo Venue 071",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-072",
+      "name": "Demo Venue 072",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-073",
+      "name": "Demo Venue 073",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-074",
+      "name": "Demo Venue 074",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-075",
+      "name": "Demo Venue 075",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-076",
+      "name": "Demo Venue 076",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-077",
+      "name": "Demo Venue 077",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-078",
+      "name": "Demo Venue 078",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-079",
+      "name": "Demo Venue 079",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-080",
+      "name": "Demo Venue 080",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-081",
+      "name": "Demo Venue 081",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-082",
+      "name": "Demo Venue 082",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-083",
+      "name": "Demo Venue 083",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-084",
+      "name": "Demo Venue 084",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-085",
+      "name": "Demo Venue 085",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-086",
+      "name": "Demo Venue 086",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-087",
+      "name": "Demo Venue 087",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-088",
+      "name": "Demo Venue 088",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-089",
+      "name": "Demo Venue 089",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-090",
+      "name": "Demo Venue 090",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-091",
+      "name": "Demo Venue 091",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-092",
+      "name": "Demo Venue 092",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-093",
+      "name": "Demo Venue 093",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-094",
+      "name": "Demo Venue 094",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-095",
+      "name": "Demo Venue 095",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-096",
+      "name": "Demo Venue 096",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-097",
+      "name": "Demo Venue 097",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-098",
+      "name": "Demo Venue 098",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-099",
+      "name": "Demo Venue 099",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    },
+    {
+      "id": "venue-100",
+      "name": "Demo Venue 100",
+      "timezone": "Africa/Johannesburg",
+      "access_points": []
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-001",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:01",
+      "started_at": "2026-06-15T08:07:00Z",
+      "ended_at": "2026-06-15T08:38:00Z",
+      "bytes_received": 512345,
+      "bytes_sent": 104321
+    },
+    {
+      "id": "session-002",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:02",
+      "started_at": "2026-06-15T08:14:00Z",
+      "ended_at": "2026-06-15T08:46:00Z",
+      "bytes_received": 524690,
+      "bytes_sent": 108642
+    },
+    {
+      "id": "session-003",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:03",
+      "started_at": "2026-06-15T08:21:00Z",
+      "ended_at": "2026-06-15T08:54:00Z",
+      "bytes_received": 537035,
+      "bytes_sent": 112963
+    },
+    {
+      "id": "session-004",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:04",
+      "started_at": "2026-06-15T08:28:00Z",
+      "ended_at": "2026-06-15T09:02:00Z",
+      "bytes_received": 549380,
+      "bytes_sent": 117284
+    },
+    {
+      "id": "session-005",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:05",
+      "started_at": "2026-06-15T08:35:00Z",
+      "ended_at": "2026-06-15T09:10:00Z",
+      "bytes_received": 561725,
+      "bytes_sent": 121605
+    },
+    {
+      "id": "session-006",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:06",
+      "started_at": "2026-06-15T08:42:00Z",
+      "ended_at": "2026-06-15T09:18:00Z",
+      "bytes_received": 574070,
+      "bytes_sent": 125926
+    },
+    {
+      "id": "session-007",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:07",
+      "started_at": "2026-06-15T08:49:00Z",
+      "ended_at": "2026-06-15T09:26:00Z",
+      "bytes_received": 586415,
+      "bytes_sent": 130247
+    },
+    {
+      "id": "session-008",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:08",
+      "started_at": "2026-06-15T08:56:00Z",
+      "ended_at": null,
+      "bytes_received": 598760,
+      "bytes_sent": 134568
+    },
+    {
+      "id": "session-009",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:09",
+      "started_at": "2026-06-15T09:03:00Z",
+      "ended_at": "2026-06-15T09:42:00Z",
+      "bytes_received": 611105,
+      "bytes_sent": 138889
+    },
+    {
+      "id": "session-010",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:10",
+      "started_at": "2026-06-15T09:10:00Z",
+      "ended_at": "2026-06-15T09:50:00Z",
+      "bytes_received": 623450,
+      "bytes_sent": 143210
+    },
+    {
+      "id": "session-011",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:11",
+      "started_at": "2026-06-15T09:17:00Z",
+      "ended_at": "2026-06-15T09:58:00Z",
+      "bytes_received": 635795,
+      "bytes_sent": 147531
+    },
+    {
+      "id": "session-012",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:12",
+      "started_at": "2026-06-15T09:24:00Z",
+      "ended_at": "2026-06-15T10:06:00Z",
+      "bytes_received": 648140,
+      "bytes_sent": 151852
+    },
+    {
+      "id": "session-013",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:13",
+      "started_at": "2026-06-15T09:31:00Z",
+      "ended_at": "2026-06-15T10:14:00Z",
+      "bytes_received": 660485,
+      "bytes_sent": 156173
+    },
+    {
+      "id": "session-014",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:14",
+      "started_at": "2026-06-15T09:38:00Z",
+      "ended_at": "2026-06-15T10:22:00Z",
+      "bytes_received": 672830,
+      "bytes_sent": 160494
+    },
+    {
+      "id": "session-015",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:15",
+      "started_at": "2026-06-15T09:45:00Z",
+      "ended_at": "2026-06-15T10:30:00Z",
+      "bytes_received": 685175,
+      "bytes_sent": 164815
+    },
+    {
+      "id": "session-016",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:16",
+      "started_at": "2026-06-15T09:52:00Z",
+      "ended_at": "2026-06-15T10:38:00Z",
+      "bytes_received": 697520,
+      "bytes_sent": 169136
+    },
+    {
+      "id": "session-017",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:17",
+      "started_at": "2026-06-15T09:59:00Z",
+      "ended_at": "2026-06-15T10:46:00Z",
+      "bytes_received": 709865,
+      "bytes_sent": 173457
+    },
+    {
+      "id": "session-018",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:18",
+      "started_at": "2026-06-15T10:06:00Z",
+      "ended_at": "2026-06-15T10:54:00Z",
+      "bytes_received": 722210,
+      "bytes_sent": 177778
+    },
+    {
+      "id": "session-019",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:19",
+      "started_at": "2026-06-15T10:13:00Z",
+      "ended_at": "2026-06-15T11:02:00Z",
+      "bytes_received": 734555,
+      "bytes_sent": 182099
+    },
+    {
+      "id": "session-020",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:20",
+      "started_at": "2026-06-15T10:20:00Z",
+      "ended_at": "2026-06-15T11:10:00Z",
+      "bytes_received": 746900,
+      "bytes_sent": 186420
+    },
+    {
+      "id": "session-021",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:21",
+      "started_at": "2026-06-15T10:27:00Z",
+      "ended_at": "2026-06-15T11:18:00Z",
+      "bytes_received": 759245,
+      "bytes_sent": 190741
+    },
+    {
+      "id": "session-022",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:22",
+      "started_at": "2026-06-15T10:34:00Z",
+      "ended_at": "2026-06-15T11:26:00Z",
+      "bytes_received": 771590,
+      "bytes_sent": 195062
+    },
+    {
+      "id": "session-023",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:23",
+      "started_at": "2026-06-15T10:41:00Z",
+      "ended_at": "2026-06-15T11:34:00Z",
+      "bytes_received": 783935,
+      "bytes_sent": 199383
+    },
+    {
+      "id": "session-024",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:24",
+      "started_at": "2026-06-15T10:48:00Z",
+      "ended_at": "2026-06-15T11:42:00Z",
+      "bytes_received": 796280,
+      "bytes_sent": 203704
+    },
+    {
+      "id": "session-025",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:25",
+      "started_at": "2026-06-15T10:55:00Z",
+      "ended_at": "2026-06-15T11:50:00Z",
+      "bytes_received": 808625,
+      "bytes_sent": 208025
+    },
+    {
+      "id": "session-026",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:26",
+      "started_at": "2026-06-15T11:02:00Z",
+      "ended_at": "2026-06-15T11:58:00Z",
+      "bytes_received": 820970,
+      "bytes_sent": 212346
+    },
+    {
+      "id": "session-027",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:27",
+      "started_at": "2026-06-15T11:09:00Z",
+      "ended_at": null,
+      "bytes_received": 833315,
+      "bytes_sent": 216667
+    },
+    {
+      "id": "session-028",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:28",
+      "started_at": "2026-06-15T11:16:00Z",
+      "ended_at": "2026-06-15T12:14:00Z",
+      "bytes_received": 845660,
+      "bytes_sent": 220988
+    },
+    {
+      "id": "session-029",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:29",
+      "started_at": "2026-06-15T11:23:00Z",
+      "ended_at": "2026-06-15T12:22:00Z",
+      "bytes_received": 858005,
+      "bytes_sent": 225309
+    },
+    {
+      "id": "session-030",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:30",
+      "started_at": "2026-06-15T11:30:00Z",
+      "ended_at": "2026-06-15T12:30:00Z",
+      "bytes_received": 870350,
+      "bytes_sent": 229630
+    },
+    {
+      "id": "session-031",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:31",
+      "started_at": "2026-06-15T11:37:00Z",
+      "ended_at": "2026-06-15T12:38:00Z",
+      "bytes_received": 882695,
+      "bytes_sent": 233951
+    },
+    {
+      "id": "session-032",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:32",
+      "started_at": "2026-06-15T11:44:00Z",
+      "ended_at": "2026-06-15T12:46:00Z",
+      "bytes_received": 895040,
+      "bytes_sent": 238272
+    },
+    {
+      "id": "session-033",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:33",
+      "started_at": "2026-06-15T11:51:00Z",
+      "ended_at": "2026-06-15T12:54:00Z",
+      "bytes_received": 907385,
+      "bytes_sent": 242593
+    },
+    {
+      "id": "session-034",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:34",
+      "started_at": "2026-06-15T11:58:00Z",
+      "ended_at": "2026-06-15T13:02:00Z",
+      "bytes_received": 919730,
+      "bytes_sent": 246914
+    },
+    {
+      "id": "session-035",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:35",
+      "started_at": "2026-06-15T12:05:00Z",
+      "ended_at": "2026-06-15T13:10:00Z",
+      "bytes_received": 932075,
+      "bytes_sent": 251235
+    },
+    {
+      "id": "session-036",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:36",
+      "started_at": "2026-06-15T12:12:00Z",
+      "ended_at": "2026-06-15T13:18:00Z",
+      "bytes_received": 944420,
+      "bytes_sent": 255556
+    },
+    {
+      "id": "session-037",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:37",
+      "started_at": "2026-06-15T12:19:00Z",
+      "ended_at": "2026-06-15T13:26:00Z",
+      "bytes_received": 956765,
+      "bytes_sent": 259877
+    },
+    {
+      "id": "session-038",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:38",
+      "started_at": "2026-06-15T12:26:00Z",
+      "ended_at": "2026-06-15T13:34:00Z",
+      "bytes_received": 969110,
+      "bytes_sent": 264198
+    },
+    {
+      "id": "session-039",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:39",
+      "started_at": "2026-06-15T12:33:00Z",
+      "ended_at": "2026-06-15T13:42:00Z",
+      "bytes_received": 981455,
+      "bytes_sent": 268519
+    },
+    {
+      "id": "session-040",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:40",
+      "started_at": "2026-06-15T12:40:00Z",
+      "ended_at": "2026-06-15T13:50:00Z",
+      "bytes_received": 993800,
+      "bytes_sent": 272840
+    },
+    {
+      "id": "session-041",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:41",
+      "started_at": "2026-06-15T12:47:00Z",
+      "ended_at": "2026-06-15T13:58:00Z",
+      "bytes_received": 1006145,
+      "bytes_sent": 277161
+    },
+    {
+      "id": "session-042",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:42",
+      "started_at": "2026-06-15T12:54:00Z",
+      "ended_at": null,
+      "bytes_received": 1018490,
+      "bytes_sent": 281482
+    },
+    {
+      "id": "session-043",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:43",
+      "started_at": "2026-06-15T13:01:00Z",
+      "ended_at": "2026-06-15T14:14:00Z",
+      "bytes_received": 1030835,
+      "bytes_sent": 285803
+    },
+    {
+      "id": "session-044",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:44",
+      "started_at": "2026-06-15T13:08:00Z",
+      "ended_at": "2026-06-15T14:22:00Z",
+      "bytes_received": 1043180,
+      "bytes_sent": 290124
+    },
+    {
+      "id": "session-045",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:45",
+      "started_at": "2026-06-15T13:15:00Z",
+      "ended_at": "2026-06-15T13:45:00Z",
+      "bytes_received": 1055525,
+      "bytes_sent": 294445
+    },
+    {
+      "id": "session-046",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:46",
+      "started_at": "2026-06-15T13:22:00Z",
+      "ended_at": "2026-06-15T13:53:00Z",
+      "bytes_received": 1067870,
+      "bytes_sent": 298766
+    },
+    {
+      "id": "session-047",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:47",
+      "started_at": "2026-06-15T13:29:00Z",
+      "ended_at": "2026-06-15T14:01:00Z",
+      "bytes_received": 1080215,
+      "bytes_sent": 303087
+    },
+    {
+      "id": "session-048",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:48",
+      "started_at": "2026-06-15T13:36:00Z",
+      "ended_at": "2026-06-15T14:09:00Z",
+      "bytes_received": 1092560,
+      "bytes_sent": 307408
+    },
+    {
+      "id": "session-049",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:49",
+      "started_at": "2026-06-15T13:43:00Z",
+      "ended_at": "2026-06-15T14:17:00Z",
+      "bytes_received": 1104905,
+      "bytes_sent": 311729
+    },
+    {
+      "id": "session-050",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:50",
+      "started_at": "2026-06-15T13:50:00Z",
+      "ended_at": "2026-06-15T14:25:00Z",
+      "bytes_received": 1117250,
+      "bytes_sent": 316050
+    },
+    {
+      "id": "session-051",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:51",
+      "started_at": "2026-06-15T13:57:00Z",
+      "ended_at": "2026-06-15T14:33:00Z",
+      "bytes_received": 1129595,
+      "bytes_sent": 320371
+    },
+    {
+      "id": "session-052",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:52",
+      "started_at": "2026-06-15T14:04:00Z",
+      "ended_at": "2026-06-15T14:41:00Z",
+      "bytes_received": 1141940,
+      "bytes_sent": 324692
+    },
+    {
+      "id": "session-053",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:53",
+      "started_at": "2026-06-15T14:11:00Z",
+      "ended_at": "2026-06-15T14:49:00Z",
+      "bytes_received": 1154285,
+      "bytes_sent": 329013
+    },
+    {
+      "id": "session-054",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:54",
+      "started_at": "2026-06-15T14:18:00Z",
+      "ended_at": "2026-06-15T14:57:00Z",
+      "bytes_received": 1166630,
+      "bytes_sent": 333334
+    },
+    {
+      "id": "session-055",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:55",
+      "started_at": "2026-06-15T14:25:00Z",
+      "ended_at": "2026-06-15T15:05:00Z",
+      "bytes_received": 1178975,
+      "bytes_sent": 337655
+    },
+    {
+      "id": "session-056",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:56",
+      "started_at": "2026-06-15T14:32:00Z",
+      "ended_at": "2026-06-15T15:13:00Z",
+      "bytes_received": 1191320,
+      "bytes_sent": 341976
+    },
+    {
+      "id": "session-057",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:57",
+      "started_at": "2026-06-15T14:39:00Z",
+      "ended_at": "2026-06-15T15:21:00Z",
+      "bytes_received": 1203665,
+      "bytes_sent": 346297
+    },
+    {
+      "id": "session-058",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:58",
+      "started_at": "2026-06-15T14:46:00Z",
+      "ended_at": null,
+      "bytes_received": 1216010,
+      "bytes_sent": 350618
+    },
+    {
+      "id": "session-059",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:59",
+      "started_at": "2026-06-15T14:53:00Z",
+      "ended_at": "2026-06-15T15:37:00Z",
+      "bytes_received": 1228355,
+      "bytes_sent": 354939
+    },
+    {
+      "id": "session-060",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:60",
+      "started_at": "2026-06-15T15:00:00Z",
+      "ended_at": "2026-06-15T15:45:00Z",
+      "bytes_received": 1240700,
+      "bytes_sent": 359260
+    },
+    {
+      "id": "session-061",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:61",
+      "started_at": "2026-06-15T15:07:00Z",
+      "ended_at": "2026-06-15T15:53:00Z",
+      "bytes_received": 1253045,
+      "bytes_sent": 363581
+    },
+    {
+      "id": "session-062",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:62",
+      "started_at": "2026-06-15T15:14:00Z",
+      "ended_at": "2026-06-15T16:01:00Z",
+      "bytes_received": 1265390,
+      "bytes_sent": 367902
+    },
+    {
+      "id": "session-063",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:63",
+      "started_at": "2026-06-15T15:21:00Z",
+      "ended_at": "2026-06-15T16:09:00Z",
+      "bytes_received": 1277735,
+      "bytes_sent": 372223
+    },
+    {
+      "id": "session-064",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:64",
+      "started_at": "2026-06-15T15:28:00Z",
+      "ended_at": "2026-06-15T16:17:00Z",
+      "bytes_received": 1290080,
+      "bytes_sent": 376544
+    },
+    {
+      "id": "session-065",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:65",
+      "started_at": "2026-06-15T15:35:00Z",
+      "ended_at": "2026-06-15T16:25:00Z",
+      "bytes_received": 1302425,
+      "bytes_sent": 380865
+    },
+    {
+      "id": "session-066",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:66",
+      "started_at": "2026-06-15T15:42:00Z",
+      "ended_at": "2026-06-15T16:33:00Z",
+      "bytes_received": 1314770,
+      "bytes_sent": 385186
+    },
+    {
+      "id": "session-067",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:67",
+      "started_at": "2026-06-15T15:49:00Z",
+      "ended_at": "2026-06-15T16:41:00Z",
+      "bytes_received": 1327115,
+      "bytes_sent": 389507
+    },
+    {
+      "id": "session-068",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:68",
+      "started_at": "2026-06-15T15:56:00Z",
+      "ended_at": "2026-06-15T16:49:00Z",
+      "bytes_received": 1339460,
+      "bytes_sent": 393828
+    },
+    {
+      "id": "session-069",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:69",
+      "started_at": "2026-06-15T16:03:00Z",
+      "ended_at": "2026-06-15T16:57:00Z",
+      "bytes_received": 1351805,
+      "bytes_sent": 398149
+    },
+    {
+      "id": "session-070",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:70",
+      "started_at": "2026-06-15T16:10:00Z",
+      "ended_at": "2026-06-15T17:05:00Z",
+      "bytes_received": 1364150,
+      "bytes_sent": 402470
+    },
+    {
+      "id": "session-071",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:71",
+      "started_at": "2026-06-15T16:17:00Z",
+      "ended_at": "2026-06-15T17:13:00Z",
+      "bytes_received": 1376495,
+      "bytes_sent": 406791
+    },
+    {
+      "id": "session-072",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:72",
+      "started_at": "2026-06-15T16:24:00Z",
+      "ended_at": "2026-06-15T17:21:00Z",
+      "bytes_received": 1388840,
+      "bytes_sent": 411112
+    },
+    {
+      "id": "session-073",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:73",
+      "started_at": "2026-06-15T16:31:00Z",
+      "ended_at": null,
+      "bytes_received": 1401185,
+      "bytes_sent": 415433
+    },
+    {
+      "id": "session-074",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:74",
+      "started_at": "2026-06-15T16:38:00Z",
+      "ended_at": "2026-06-15T17:37:00Z",
+      "bytes_received": 1413530,
+      "bytes_sent": 419754
+    },
+    {
+      "id": "session-075",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:75",
+      "started_at": "2026-06-15T16:45:00Z",
+      "ended_at": "2026-06-15T17:45:00Z",
+      "bytes_received": 1425875,
+      "bytes_sent": 424075
+    },
+    {
+      "id": "session-076",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:76",
+      "started_at": "2026-06-15T16:52:00Z",
+      "ended_at": "2026-06-15T17:53:00Z",
+      "bytes_received": 1438220,
+      "bytes_sent": 428396
+    },
+    {
+      "id": "session-077",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:77",
+      "started_at": "2026-06-15T16:59:00Z",
+      "ended_at": "2026-06-15T18:01:00Z",
+      "bytes_received": 1450565,
+      "bytes_sent": 432717
+    },
+    {
+      "id": "session-078",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:78",
+      "started_at": "2026-06-15T17:06:00Z",
+      "ended_at": "2026-06-15T18:09:00Z",
+      "bytes_received": 1462910,
+      "bytes_sent": 437038
+    },
+    {
+      "id": "session-079",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:79",
+      "started_at": "2026-06-15T17:13:00Z",
+      "ended_at": "2026-06-15T18:17:00Z",
+      "bytes_received": 1475255,
+      "bytes_sent": 441359
+    },
+    {
+      "id": "session-080",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:80",
+      "started_at": "2026-06-15T17:20:00Z",
+      "ended_at": "2026-06-15T18:25:00Z",
+      "bytes_received": 1487600,
+      "bytes_sent": 445680
+    },
+    {
+      "id": "session-081",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:81",
+      "started_at": "2026-06-15T17:27:00Z",
+      "ended_at": "2026-06-15T18:33:00Z",
+      "bytes_received": 1499945,
+      "bytes_sent": 450001
+    },
+    {
+      "id": "session-082",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:82",
+      "started_at": "2026-06-15T17:34:00Z",
+      "ended_at": "2026-06-15T18:41:00Z",
+      "bytes_received": 1512290,
+      "bytes_sent": 454322
+    },
+    {
+      "id": "session-083",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:83",
+      "started_at": "2026-06-15T17:41:00Z",
+      "ended_at": "2026-06-15T18:49:00Z",
+      "bytes_received": 1524635,
+      "bytes_sent": 458643
+    },
+    {
+      "id": "session-084",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:84",
+      "started_at": "2026-06-15T17:48:00Z",
+      "ended_at": "2026-06-15T18:57:00Z",
+      "bytes_received": 1536980,
+      "bytes_sent": 462964
+    },
+    {
+      "id": "session-085",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:85",
+      "started_at": "2026-06-15T17:55:00Z",
+      "ended_at": "2026-06-15T19:05:00Z",
+      "bytes_received": 1549325,
+      "bytes_sent": 467285
+    },
+    {
+      "id": "session-086",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:86",
+      "started_at": "2026-06-15T18:02:00Z",
+      "ended_at": "2026-06-15T19:13:00Z",
+      "bytes_received": 1561670,
+      "bytes_sent": 471606
+    },
+    {
+      "id": "session-087",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:87",
+      "started_at": "2026-06-15T18:09:00Z",
+      "ended_at": "2026-06-15T19:21:00Z",
+      "bytes_received": 1574015,
+      "bytes_sent": 475927
+    },
+    {
+      "id": "session-088",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:88",
+      "started_at": "2026-06-15T18:16:00Z",
+      "ended_at": "2026-06-15T19:29:00Z",
+      "bytes_received": 1586360,
+      "bytes_sent": 480248
+    },
+    {
+      "id": "session-089",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:89",
+      "started_at": "2026-06-15T18:23:00Z",
+      "ended_at": null,
+      "bytes_received": 1598705,
+      "bytes_sent": 484569
+    },
+    {
+      "id": "session-090",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:00:90",
+      "started_at": "2026-06-15T18:30:00Z",
+      "ended_at": "2026-06-15T19:00:00Z",
+      "bytes_received": 1611050,
+      "bytes_sent": 488890
+    },
+    {
+      "id": "session-091",
+      "access_point_id": "ap-001",
+      "client_mac": "02:AA:00:00:00:91",
+      "started_at": "2026-06-15T18:37:00Z",
+      "ended_at": "2026-06-15T19:08:00Z",
+      "bytes_received": 1623395,
+      "bytes_sent": 493211
+    },
+    {
+      "id": "session-092",
+      "access_point_id": "ap-002",
+      "client_mac": "02:AA:00:00:00:92",
+      "started_at": "2026-06-15T18:44:00Z",
+      "ended_at": "2026-06-15T19:16:00Z",
+      "bytes_received": 1635740,
+      "bytes_sent": 497532
+    },
+    {
+      "id": "session-093",
+      "access_point_id": "ap-003",
+      "client_mac": "02:AA:00:00:00:93",
+      "started_at": "2026-06-15T18:51:00Z",
+      "ended_at": "2026-06-15T19:24:00Z",
+      "bytes_received": 1648085,
+      "bytes_sent": 501853
+    },
+    {
+      "id": "session-094",
+      "access_point_id": "ap-004",
+      "client_mac": "02:AA:00:00:00:94",
+      "started_at": "2026-06-15T18:58:00Z",
+      "ended_at": null,
+      "bytes_received": 1660430,
+      "bytes_sent": 506174
+    },
+    {
+      "id": "session-095",
+      "access_point_id": "ap-005",
+      "client_mac": "02:AA:00:00:00:95",
+      "started_at": "2026-06-15T19:05:00Z",
+      "ended_at": "2026-06-15T19:40:00Z",
+      "bytes_received": 1672775,
+      "bytes_sent": 510495
+    },
+    {
+      "id": "session-096",
+      "access_point_id": "ap-006",
+      "client_mac": "02:AA:00:00:00:96",
+      "started_at": "2026-06-15T19:12:00Z",
+      "ended_at": "2026-06-15T19:48:00Z",
+      "bytes_received": 1685120,
+      "bytes_sent": 514816
+    },
+    {
+      "id": "session-097",
+      "access_point_id": "ap-007",
+      "client_mac": "02:AA:00:00:00:97",
+      "started_at": "2026-06-15T19:19:00Z",
+      "ended_at": null,
+      "bytes_received": 1697465,
+      "bytes_sent": 519137
+    },
+    {
+      "id": "session-098",
+      "access_point_id": "ap-008",
+      "client_mac": "02:AA:00:00:00:98",
+      "started_at": "2026-06-15T19:26:00Z",
+      "ended_at": "2026-06-15T20:04:00Z",
+      "bytes_received": 1709810,
+      "bytes_sent": 523458
+    },
+    {
+      "id": "session-099",
+      "access_point_id": "ap-009",
+      "client_mac": "02:AA:00:00:00:99",
+      "started_at": "2026-06-15T19:33:00Z",
+      "ended_at": "2026-06-15T20:12:00Z",
+      "bytes_received": 1722155,
+      "bytes_sent": 527779
+    },
+    {
+      "id": "session-100",
+      "access_point_id": "ap-010",
+      "client_mac": "02:AA:00:00:01:00",
+      "started_at": "2026-06-15T19:40:00Z",
+      "ended_at": "2026-06-15T20:20:00Z",
+      "bytes_received": 1734500,
+      "bytes_sent": 532100
+    }
+  ]
+}
