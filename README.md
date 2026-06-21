@@ -119,7 +119,7 @@ GET  /mock-controller-data
 POST /sync
 POST /sync?simulate_failure=true
 POST /sync?use_invalid_payload=true
-GET  /sync-info
+GET  /sync-info?page=1
 GET  /venues?page=1
 GET  /wifi-sessions?page=1
 GET  /access_points
