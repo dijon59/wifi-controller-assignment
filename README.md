@@ -115,7 +115,6 @@ http://127.0.0.1:5174
 ## Main API Endpoints
 
 ```text
-GET  /health
 GET  /mock-controller-data
 POST /sync
 POST /sync?simulate_failure=true
