@@ -134,7 +134,6 @@ POST /sync
   -> upsert access points by controller access point ID
   -> upsert Wi-Fi sessions by controller session ID
   -> write sync log
-  -> return synced record counts
 ```
 
 Repeated syncs should not create  duplicates because synced records are matched by provider/controller IDs.
