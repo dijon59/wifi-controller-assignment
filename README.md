@@ -66,6 +66,24 @@ docker-compose.yml
 README.md
 ```
 
+## Requirements
+
+To run the project, you need:
+
+- Docker Desktop or Docker Engine with Docker Compose.
+- Node.js and npm for the React frontend.
+- A terminal from the project root directory.
+
+The backend Python runtime and PostgreSQL database run inside Docker, so you do not need to install PostgreSQL or create a local Python virtual environment unless you want to run the backend outside Docker.
+
+Recommended versions:
+
+```text
+Docker Compose v2+
+Node.js 20+
+npm 10+
+```
+
 ## Setup And Run
 
 ### 1. Start Backend And Database
@@ -161,8 +179,6 @@ http://127.0.0.1:8000/docs
 
 ```
 
-
-
 ## Pagination
 
 The pagination takes place in the backend, the frontend sends page numbers only:
@@ -217,6 +233,7 @@ Paginated responses include:
 - Add the AI Extension feature for system insight of data loaded from the third-party API(Mock data)
 - Add frontend tests for loading, error, and pagination states.
 - Add filtering for Wi-Fi sessions by venue, access point, or active/completed status.
+- Add a bash file that runs all the start up projects command automatically instead of typing them manually. 
 
 ## AI Tool Usage
 
