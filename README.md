@@ -38,7 +38,6 @@ PostgreSQL tables:
 - sync_logs
 ```
 
-The mock controller exposes provider-shaped data. The sync service normalizes that payload into internal models while keeping provider IDs for repeated sync matching.
 The mock controller payload is stored as a static JSON file at `backend/app/data/mock_controller.json`.
 
 ## Tech Stack
