@@ -214,9 +214,17 @@ Paginated responses include:
 
 ## Trade-Offs
 
-- The mock controller is hosted inside the same backend app instead of a separate service. This keeps the project small and easy to run.
-- Sync is request/response based rather than queued in a background job.
-- Error handling is basic but includes rollback and failed sync logging.
+- The mock third-party controller is implemented inside the same FastAPI app instead of as a separate external service. This keeps the project simple to run while still showing the provider integration boundary.
+
+- The sync process runs synchronously through `POST /sync` instead of using a background worker or queue. For a small assignment this is easier to reason about, but in production I would move longer sync jobs to a background task system.
+
+- The mock provider data is stored in static JSON files. This makes the data easy to inspect and test, but it does not fully represent the unpredictability of a real third-party API.
+
+- Missing required provider fields cause the whole sync to fail and roll back. This protects data consistency.
+
+- Error handling is intentionally basic. Failed sync attempts are logged, but there is no retry logic, alerting, or detailed rejected-record reporting yet.
+
+- The frontend is intentionally simple and focused on clarity rather than heavy styling or complex state management.
 
 ## Optional Extensions Implemented
 
