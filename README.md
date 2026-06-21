@@ -202,7 +202,6 @@ Paginated responses include:
 - Sync is request/response based rather than queued in a background job.
 - Error handling is basic but includes rollback and failed sync logging.
 
-
 ## Optional Extensions Implemented
 
 - Backend pagination for venues and Wi-Fi sessions
@@ -214,12 +213,10 @@ Paginated responses include:
 ## What I Would Improve With More Time
 
 - Add automated backend tests for sync idempotency and pagination.
-- Store the raw provider payload in `sync_logs` for debugging.
 - Add retry logic around external controller fetches.
-- Split the mock controller into a separate service/container.
+- Add the AI Extension feature for system insight of data loaded from the third-party API(Mock data)
 - Add frontend tests for loading, error, and pagination states.
 - Add filtering for Wi-Fi sessions by venue, access point, or active/completed status.
-- Improve SQLAlchemy query performance with eager loading where relationships are displayed.
 
 ## AI Tool Usage
 
