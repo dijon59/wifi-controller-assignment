@@ -165,11 +165,12 @@ http://127.0.0.1:8000/docs
 
 ## Pagination
 
-The backend owns page size. The frontend sends page numbers only:
+The pagination takes place in the backend, the frontend sends page numbers only:
 
 ```text
 GET /venues?page=1
 GET /wifi-sessions?page=1
+GET /sync-info?page=1
 ```
 
 Paginated responses include:
