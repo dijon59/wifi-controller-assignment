@@ -84,6 +84,57 @@ Node.js 20+
 npm 10+
 ```
 
+## Live Deployment
+
+The project is also deployed online so it can be reviewed without running it locally.
+
+```text
+Frontend: https://wifi-controller-assignment.vercel.app
+Backend API: https://wifi-controller-assignment.onrender.com
+Backend API Docs: https://wifi-controller-assignment.onrender.com/docs
+```
+
+The deployed version uses:
+
+- Vercel for the React frontend.
+- Render for the FastAPI backend.
+- Neon Postgres for the hosted PostgreSQL database.
+
+The first request can sometimes take a little longer because the backend is hosted on Render's free tier. Free-tier services may sleep after a period of inactivity, so the first request has to wake the backend service before the dashboard data loads. Neon may also need a short moment to resume the database connection after inactivity.
+
+### Testing The Live Deployment
+
+Open the frontend URL and click:
+
+```text
+Run Sync
+```
+
+This triggers the backend sync, loads the mock controller JSON data, stores normalized records in Neon Postgres, and updates the venues, Wi-Fi sessions, and sync history tables.
+
+You can also test the API directly from the backend docs:
+
+```text
+https://wifi-controller-assignment.onrender.com/docs
+```
+
+To test invalid provider data handling, run:
+
+```text
+POST /sync?use_invalid_payload=true
+```
+
+This uses `backend/app/data/mock_controller_invalid.json`, where the first venue intentionally misses the required `timezone` field. The backend responds with a `422` error, rolls back the sync, and writes a failed sync entry into `sync_logs`. The failed attempt is then visible in the Sync History section.
+
+To test a simulated controller outage, run:
+
+```text
+POST /sync?simulate_failure=true
+```
+You can test it easily with fast api docs url, you will see a list of all the projects APIs and it also give you the possibility to add query params in APIs. Or you can also use postman. But it is quick and easy to use fast api docs url
+
+This returns a `502` error and also logs a failed sync attempt.
+
 ## Setup And Run
 
 ### 1. Start Backend And Database
@@ -171,8 +222,6 @@ POST /sync?use_invalid_payload=true
 ```
 
 This loads `backend/app/data/mock_controller_invalid.json`, which intentionally misses a required field. The backend returns a `422` and logs the failure in `sync_logs`.
-
-You can test it easily with fast api docs url, you will see a list of all the projects APIs and it also give you the possibility to add query params in APIs. Or you can also use postman. But it is quick and easy to use fast api docs url
 
 ```text
 http://127.0.0.1:8000/docs
