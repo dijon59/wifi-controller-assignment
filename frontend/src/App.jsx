@@ -9,7 +9,9 @@ import SyncHistoryTable from "./components/SyncHistoryTable";
 import SyncSummary from "./components/SyncSummary";
 import VenuesTable from "./components/VenuesTable";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000"
+).replace(/\/$/, "");
 
 function App() {
   const [venues, setVenues] = useState([]);

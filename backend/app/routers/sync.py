@@ -1,6 +1,6 @@
-import httpx
 from fastapi import APIRouter, Depends, HTTPException
 from app.database import get_db
+from app.routers import mock_controller
 from app.services import services
 
 router = APIRouter(tags=['sync', 'sync-info'])
@@ -13,16 +13,11 @@ def sync_controller_data(
     db=Depends(get_db),
 ):
     try:
-        response = httpx.get(
-            "http://localhost:8000/mock-controller-data",
-            params={
-                "simulate_failure": simulate_failure,
-                "use_invalid_payload": use_invalid_payload,
-            },
-            timeout=5,
+        data = mock_controller.get_controller_data(
+            simulate_failure=simulate_failure,
+            use_invalid_payload=use_invalid_payload,
         )
-        response.raise_for_status()
-    except httpx.HTTPError as exc:
+    except HTTPException as exc:
         services.record_failed_sync(
             db,
             "Failed to fetch data from mock controller",
@@ -31,8 +26,6 @@ def sync_controller_data(
             status_code=502,
             detail="Failed to fetch data from mock controller",
         ) from exc
-
-    data = response.json()
 
     try:
         result = services.sync_controller_data(db, data)
